@@ -17,5 +17,8 @@ module.exports = {
             jsx: true,
         },
     },
-    rules: {},
+    rules: {
+        // 사용하지 않는 변수는 경고
+        'no-unused-vars': 'warn',
+    },
 };
