@@ -5,6 +5,12 @@ function App() {
 
     }
 
+    if (foo) {
+    }
+
+    while (foo) {
+    }
+
     return (
         <>
             <div className='App'></div>
